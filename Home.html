@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Seru</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Navbar */
+        .navbar {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background: #2c3e50;
+            padding: 15px 20px;
+            color: white;
+        }
+
+        .navbar h2 {
+            margin: 0;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            margin-left: 20px;
+            font-size: 16px;
+        }
+
+        .menu a:hover {
+            color: #f1c40f;
+        }
+
+        /* Konten */
+        .content {
+            padding: 20px;
+        }
+                .menu-container {
+            max-width: 400px;
+            margin: 20px auto;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        .btn {
+            background-color: #3498db;
+            padding: 15px;
+            border: none;
+            color: white;
+            font-size: 18px;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #2980b9;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- NAVBAR -->
+    <div class="navbar">
+        <h2>Belajar Seru</h2>
+        <div class="menu">
+            
+            <a href="Game.html"></a>
+            <a href="profil.html"></a>
+            <a href="kontak.html"></a>
+        </div>
+    </div>
+
+    <!-- Konten Halaman -->
+    <div class="content">
+        <strong>Kami menyediakan kuis menarik dan edukatif untuk mata pelajaran IPA, IPS, PPKn, dan Matematika bagi siswa kelas 7, 8, dan 9.</strong>
+    </div>
+<hr>
+
+    <div class="menu-container">
+        <button class="btn" onclick="location.href='ips.html'">Kuis IPS</button>
+        <button class="btn" onclick="location.href='ipa.html'">Kuis IPA</button>
+        <button class="btn" onclick="location.href='ppkn.html'">Kuis PPKN</button>
+        <button class="btn" onclick="location.href='mtk.html'">Kuis MTK</button>
+    </div>
+    <hr border=20px>
+       
+</body>
+</html>
